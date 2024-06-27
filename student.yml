@@ -3,7 +3,7 @@ server:
 spring:
   application:
     name: student
-datasource:
+  datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/cursojava
     username: root
@@ -15,6 +15,7 @@ datasource:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+
 
 
 info:
