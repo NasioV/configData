@@ -18,7 +18,7 @@ spring:
           predicates:
             - Path=/api/v1/courses/**
         - id: students
-          uri: lb://students
+          uri: lb://student
           predicates:
             - Path=/api/v1/students/**
   
